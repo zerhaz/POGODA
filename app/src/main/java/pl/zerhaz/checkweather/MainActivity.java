@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -32,7 +33,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
-    private String APIKEY = "0e292b30628880ee9ba43e8125a98d12";
+    private String APIKEY = ""; // api not included in git
     private String LANG = "pl";
 
     private String cityID = "idKey";

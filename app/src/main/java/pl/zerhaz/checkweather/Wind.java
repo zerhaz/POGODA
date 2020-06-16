@@ -15,5 +15,4 @@ public class Wind {
         return df.format(windspeed);
     }
 
-
 }

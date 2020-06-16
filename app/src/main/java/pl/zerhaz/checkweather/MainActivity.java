@@ -268,8 +268,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 Calendar localDateTime2 = Calendar.getInstance();
                 localDateTime1.setTime(currentDate);
                 localDateTime2.setTime(currentDate);
-                localDateTime1.add(Calendar.DATE, 1); //same with c.add(Calendar.DAY_OF_MONTH, 1);
-                localDateTime2.add(Calendar.DATE, 2); //same with c.add(Calendar.DAY_OF_MONTH, 1);
+                localDateTime1.add(Calendar.DATE, 1);
+                localDateTime2.add(Calendar.DATE, 2);
                 Date currentDatePlusOneDay = localDateTime1.getTime();
                 Date currentDatePlusTwoDays = localDateTime2.getTime();
                 String tomorrowDateMAX = dateFormat.format(currentDatePlusOneDay) + " 15:00:00";

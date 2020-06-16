@@ -1,4 +1,5 @@
 Nazwa aplikacji: Check Weather
+
 Autor: Michał Stancelewski
 
 Instalator aplikacji: https://github.com/zerhaz/POGODA/blob/master/install.apk
